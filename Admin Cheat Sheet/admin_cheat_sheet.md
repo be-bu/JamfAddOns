@@ -13,6 +13,22 @@ Directory, and more.
 > been replaced with placeholders such as `<admin-user>`, `<password>`,
 > `example.com`, or `<service-account>`. Replace them with your own values.
 
+## Contents
+
+- [User Context & Information](#user-context--information)
+- [Active Directory](#active-directory)
+- [FileVault & SecureToken](#filevault--securetoken)
+- [Configuration Profiles & Conversion](#configuration-profiles--conversion)
+- [System Utilities & Software Update](#system-utilities--software-update)
+- [LDAP & Directory Queries](#ldap--directory-queries)
+- [Jamf AAD & Platform SSO](#jamf-aad--platform-sso)
+- [Security, Trust Settings & Certificates](#security-trust-settings--certificates)
+- [cURL & API Requests](#curl--api-requests)
+- [awk & sed Quick Reference](#awk--sed-quick-reference)
+- [Shell Aliases](#shell-aliases)
+- [Homebrew Formulae (CLI Tools)](#homebrew-formulae-cli-tools)
+- [Homebrew Casks (GUI Applications)](#homebrew-casks-gui-applications)
+
 ## User Context & Information
 
 Commands for identifying the current console user, reading user attributes from
@@ -32,7 +48,7 @@ jamfProURL=${jamfProURL%%/}
 
 # Run a command (e.g. open a URL) as the current user, not as root
 sudo -H -iu "${currentUser}" open "$WebSite"
-sudo -H -iU "${currentUser}" open "https://jamf.com"
+sudo -H -iu "${currentUser}" open "https://jamf.com"
 
 # Submit an inventory update (recon) with the console username
 jamf recon -endUsername "$(ls -la /dev/console | cut -d ' ' -f 4)"

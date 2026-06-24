@@ -32,10 +32,20 @@ A collection of [Jamf Pro](https://www.jamf.com/) **Scripts** and **Extension At
 
 ### Admin Cheat Sheet
 
-The [`Admin Cheat Sheet/`](./Admin%20Cheat%20Sheet) folder holds reference
-snippets for common macOS administration tasks (user context, FileVault,
-certificates, Active Directory, Jamf, and more). These are **examples to copy and
-adapt**, not turnkey scripts — review each command before running it.
+The [Admin Cheat Sheet](./Admin%20Cheat%20Sheet/admin_cheat_sheet.md) is a single
+reference document of macOS administration snippets, covering:
+
+- User context & directory queries
+- Active Directory bind / unbind
+- FileVault & SecureToken
+- Configuration profiles
+- Certificates & trust settings
+- Jamf, Azure AD & Platform SSO
+- `awk` / `sed` quick reference
+- Shell aliases and Homebrew formulae / casks
+
+These are **examples to copy and adapt**, not turnkey scripts — review each
+command and replace the placeholder values before running it.
 
 ## Usage
 
