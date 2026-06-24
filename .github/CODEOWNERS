@@ -1,0 +1,9 @@
+# Code owners for the JamfAddOns repository
+
+# The owner listed here is automatically requested for review on every
+
+# pull request and is required when "Require review from Code Owners"
+
+# branch protection is enabled
+
+* @be-bu

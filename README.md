@@ -1,4 +1,4 @@
-# JamfExtras
+# JamfAddOns
 
 A collection of [Jamf Pro](https://www.jamf.com/) **Scripts** and **Extension Attributes** for managing macOS devices.
 
@@ -11,6 +11,7 @@ A collection of [Jamf Pro](https://www.jamf.com/) **Scripts** and **Extension At
 | --- | --- |
 | [`Jamf Extension Attributes/`](./Jamf%20Extension%20Attributes) | Extension Attributes that collect inventory data from devices. |
 | [`Jamf Scripts/`](./Jamf%20Scripts) | Scripts that run on managed devices through Jamf policies. |
+| [`Admin Cheat Sheet/`](./Admin%20Cheat%20Sheet) | Curated macOS administration command snippets for reference. |
 
 ### Extension Attributes
 
@@ -28,6 +29,13 @@ A collection of [Jamf Pro](https://www.jamf.com/) **Scripts** and **Extension At
 | Name | Purpose |
 | --- | --- |
 | [Update Current User Info](./Jamf%20Scripts/update_current_user_info.sh) | Submits the currently logged-in user's full name, short name and email to Jamf inventory via `jamf recon`. |
+
+### Admin Cheat Sheet
+
+The [`Admin Cheat Sheet/`](./Admin%20Cheat%20Sheet) folder holds reference
+snippets for common macOS administration tasks (user context, FileVault,
+certificates, Active Directory, Jamf, and more). These are **examples to copy and
+adapt**, not turnkey scripts — review each command before running it.
 
 ## Usage
 

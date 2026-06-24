@@ -12,7 +12,7 @@ If you discover a security issue in one of these scripts (for example a command
 that could expose data, run with unintended privileges, or behave unexpectedly),
 please report it privately:
 
-- Use GitHub's **[Report a vulnerability](https://github.com/be-bu/JamfExtras/security/advisories/new)**
+- Use GitHub's **[Report a vulnerability](https://github.com/be-bu/JamfAddOns/security/advisories/new)**
   feature (Security → Advisories), or
 - Open a regular issue **only** if the problem is not sensitive.
 
